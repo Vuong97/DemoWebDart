@@ -1,0 +1,22 @@
+name: flutter_demo_helloWord
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  flutter_bloc: ^0.7.0
+  url_launcher: ^4.0.3
+  common_heloword_test:
+    path: ../common_heloword_test
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
